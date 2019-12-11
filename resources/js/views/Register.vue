@@ -72,7 +72,8 @@
                 let url = `https://api-eu.cometchat.io/v2.0/users`;
                 let data = {
                     uid: username,
-                    name: `${username} sample`
+                    name: `${username} sample`,
+                    avatar: 'https://data-eu.cometchat.io/assets/images/avatars/captainamerica.png',
                 };
 
                 try {
